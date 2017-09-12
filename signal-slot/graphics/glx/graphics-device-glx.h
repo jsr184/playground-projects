@@ -1,0 +1,9 @@
+#ifndef SIGNAL_SLOT_GRAPHICS_DEVICE_GLX_H
+#define SIGNAL_SLOT_GRAPHICS_DEVICE_GLX_H
+
+namespace Framework
+{
+
+}
+
+#endif //SIGNAL_SLOT_GRAPHICS_DEVICE_GLX_H

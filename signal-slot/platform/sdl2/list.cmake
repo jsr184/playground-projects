@@ -1,0 +1,9 @@
+INCLUDE( ${CMAKE_CURRENT_LIST_DIR}/../common/list.cmake )
+
+SET( PLATFORM_SOURCES ${PLATFORM_SOURCES}
+        ${CMAKE_CURRENT_LIST_DIR}/application-sdl2.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/application-sdl2.h
+        )
+
+SET( PLATFORM_LIBS ${PLATFORM_LIBS}             SDL2 )
+#SET( PLATFORM_INCLUDES ${PLATFORM_INCLUDES}      )
